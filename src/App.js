@@ -224,7 +224,7 @@ class App extends Component {
                         ) : (
                           <Icon
                             type="close-square"
-                            style={{ fontSize: 16, color: "green" }}
+                            style={{ fontSize: 16, color: "red" }}
                           />
                         )}
                       </a>
