@@ -24,15 +24,12 @@ class App extends Component {
   }
   componentDidMount() {
     if (typeof Storage !== "undefined") {
-      console.log("boat", localStorage.getItem("datatodolist") || []);
-
       this.setState({
         data: JSON.parse(localStorage.getItem("datatodolist")) || []
       });
     }
   }
   showmodal = () => {
-    console.log("boat", localStorage.getItem("datatodolist"));
     this.setState({
       visible: true
     });
