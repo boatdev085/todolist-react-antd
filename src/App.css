@@ -1,0 +1,43 @@
+@import "~antd/dist/antd.css";
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  margin: auto;
+  width: 50%;
+  /* background-color: rgb(218, 218, 218); */
+  height: 50px;
+  /* color: white; */
+}
+.reminders {
+  /* background-color: rgb(218, 218, 218); */
+  width: 100%;
+}
+.reminders > .left {
+  float: left;
+}
+.reminders > .right {
+  text-align: right;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
