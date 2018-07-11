@@ -66,7 +66,6 @@ class App extends Component {
       });
     } else {
       let item = {
-        // taskid: this.state.data.length + 1,
         taskid:
           this.state.data.length > 0
             ? this.state.data.slice(-1)[0].taskid + 1
@@ -209,7 +208,6 @@ class App extends Component {
                           defaultChecked={item.status}
                           onChange={() => this.checkchange(item.taskid)}
                         />
-                        {/* <Divider type="vertical" /> */}
                       </div>
                     }
                     title={
